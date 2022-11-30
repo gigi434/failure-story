@@ -9,6 +9,8 @@ services:
     ports:
       # node.js/Next.js
       - "8080:8080"
+      # node.js/storybook
+      - "6006:6006"
     volumes:
       - "./app/frontend:/home/node/failure-story/frontend/app"
     tty: true
